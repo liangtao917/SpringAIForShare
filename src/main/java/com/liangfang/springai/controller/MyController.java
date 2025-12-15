@@ -4,6 +4,7 @@ import jakarta.annotation.Resource;
 import org.springframework.ai.deepseek.DeepSeekChatModel;
 import org.springframework.web.bind.annotation.GetMapping;
 
+@RestController
 public class MyController {
 
     @Resource
